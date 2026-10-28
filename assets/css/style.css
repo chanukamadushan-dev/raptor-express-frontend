@@ -1,0 +1,28 @@
+.search-bar{
+    margin-right: auto;
+}
+
+.gh-header__main {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#search-input {
+    width: 350px;
+    padding: 10px;
+}
+
+.card-title{
+    font-weight: bold;
+    transition: -webkit-text-stroke 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 
+    0 0 4px #3badde,
+    0 0 12px #f7f2f5;
+}
+
+.buy-price-allign{
+    display: flex;
+    justify-content: space-between;
+}
