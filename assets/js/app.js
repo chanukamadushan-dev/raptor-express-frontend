@@ -24,7 +24,7 @@ function showItems(data) {
                                 <p class="card-text">${item.status}</p>
                                 <h5 class="card-text">category : ${item.category}</h5>
                                 <section class="buy-price-allign">
-                                     <a href="#" class="btn-solid theme-primary">Buy</a>
+                                     <a href="#" class="btn-solid">Buy</a>
                                     <span>price :${item.price}</span>
                                 </section>
                             </div>

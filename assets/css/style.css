@@ -26,3 +26,54 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+/* Product Card */
+.card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+/* Hover Glow Effect */
+.card:hover {
+    box-shadow:
+        0 0 5px rgba(0, 200, 255, 0.5),
+        0 0 15px rgba(0, 200, 255, 0.4),
+        0 0 30px rgba(0, 200, 255, 0.3);
+
+    border-color: #00c8ff;
+    transform: translateY(-5px);
+}
+.btn-solid{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+/* Hover Glow Effect */
+.btn-solid:hover {
+    box-shadow:
+        0 0 5px rgba(27, 225, 47, 0.5),
+        0 0 15px rgba(59, 195, 22, 0.526),
+        0 0 30px rgba(24, 206, 20, 0.421);
+
+    border-color: #11b55e;
+    transform: translateY(-5px);
+}
+.btn-search{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+/* Hover Glow Effect */
+.btn-search:hover {
+    box-shadow:
+        0 0 5px rgb(232, 157, 27),
+        0 0 15px rgb(220, 139, 26),
+        0 0 30px rgba(227, 149, 24, 0.971);
+
+    border-color: #fff708;
+    transform: translateY(-5px);
+}
